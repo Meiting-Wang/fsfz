@@ -14,7 +14,7 @@ syntax anything(id="Water and electricity meter readings")
 *程序不合规时的报错
 if ~ustrregexm("`anything'","^(\b[1-9]\d*\b\s+){5}(\b[1-9]\d*\b\s*)$") {
 	dis "{error:If and only if six numbers required}"
-	exit 123
+	exit
 }
 
 
