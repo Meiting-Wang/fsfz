@@ -4,4 +4,4 @@ d Institute for Economic and Social Research, Jinan University
 d Guangzhou, China
 d wangmeiting92@gmail.com
 
-p fszf - Used to output the details of the rental cost in Foshan
+p fsfz - Used to output the details of the rental cost in Foshan

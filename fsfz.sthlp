@@ -2,29 +2,29 @@
 {right:Updated time: May 18, 2021}
 {* -----------------------------title------------------------------------ *}{...}
 {p 0 16 2}
-{bf:[W-11] fszf} {hline 2} Used to output the details of the rental cost in Foshan. You can view source code in {browse "https://github.com/Meiting-Wang/fszf":github}.
+{bf:[W-11] fsfz} {hline 2} Used to output the details of the rental cost in Foshan. You can view source code in {browse "https://github.com/Meiting-Wang/fsfz":github}.
 
 
 {* -----------------------------Syntax------------------------------------ *}{...}
 {title:Syntax}
 
 {p 8 8 2}
-{cmd:fszf} {it:{help numlist}}
+{cmd:fsfz} {it:{help numlist}}
 
 
 {* -----------------------------Contents------------------------------------ *}{...}
 {title:Contents}
 
 {p 4 4 2}
-{help fszf##Description:Description}{break}
-{help fszf##Examples:Examples}{break}
-{help fszf##Author:Author}
+{help fsfz##Description:Description}{break}
+{help fsfz##Examples:Examples}{break}
+{help fsfz##Author:Author}
 
 
 {* -----------------------------Description------------------------------------ *}{...}
 {marker Description}{title:Description}
 
-{p 4 4 2}{bf:fszf} means "Foshan Zhu Fang". You need to input 6 sets of numbers like {it:1027 28 25080 1030 29 25214}, from left to right: {p_end}
+{p 4 4 2}{bf:fsfz} means "Foshan Zhu Fang". You need to input 6 sets of numbers like {it:1027 28 25080 1030 29 25214}, from left to right: {p_end}
 {p 8 8 2}. {it:last period water meter reading 1}{p_end}
 {p 8 8 2}. {it:last period water meter reading 2}{p_end}
 {p 8 8 2}. {it:last period electric meter reading}{p_end}
@@ -38,7 +38,7 @@
 {marker Examples}{title:Examples}
 
 {p 4 4 2}Enter the meter raw readings, and then output the rental cost details{p_end}
-{p 8 8 2}. {stata fszf 1027 28 25080 1030 29 25214}{p_end}
+{p 8 8 2}. {stata fsfz 1027 28 25080 1030 29 25214}{p_end}
 
 
 {* -----------------------------Author------------------------------------ *}{...}

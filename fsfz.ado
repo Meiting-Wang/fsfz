@@ -6,7 +6,7 @@
 
 
 
-program define fszf
+program define fsfz
 version 16
 syntax anything(id="Water and electricity meter readings")
 
