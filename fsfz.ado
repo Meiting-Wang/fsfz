@@ -33,7 +33,7 @@ local electric_meter = `6'              //本期电表读数
 local water_meter_pre = `water_meter_1_pre' + `water_meter_2_pre' //上期水表总读数
 local water_meter = `water_meter_1' + `water_meter_2' //本期水表总读数
 
-local total_cost = 700 + 10 + (`water_meter'-`water_meter_pre')*3.5 + (`electric_meter'-`electric_meter_pre')*1.3
+local total_cost = 700 + 30 + (`water_meter'-`water_meter_pre')*3.5 + (`electric_meter'-`electric_meter_pre')*1.3
 
 local year1 = year(date("`c(current_date)'","DMY"))
 local month1 = month(date("`c(current_date)'","DMY"))
@@ -61,9 +61,9 @@ dis in y _n(5) ///
 	_col(5) "本期电表读数：`electric_meter'度" _n(2) ///
 	///
 	_col(5) "本期总费用(`year1'年`month1'月15日-`year2'年`month2'月15日房租)：" _n ///
-	_col(5) "= 700 + 10 + (`water_meter'-`water_meter_pre')×3.5 + (`electric_meter'-`electric_meter_pre')×1.3" _n ///
-	_col(5) "= 700 + 10 + `=`water_meter'-`water_meter_pre''×3.5 + `=`electric_meter'-`electric_meter_pre''×1.3" _n ///
-	_col(5) "= 700 + 10 + `=(`water_meter'-`water_meter_pre')*3.5' + `=(`electric_meter'-`electric_meter_pre')*1.3'" _n ///
+	_col(5) "= 700 + 30 + (`water_meter'-`water_meter_pre')×3.5 + (`electric_meter'-`electric_meter_pre')×1.3" _n ///
+	_col(5) "= 700 + 30 + `=`water_meter'-`water_meter_pre''×3.5 + `=`electric_meter'-`electric_meter_pre''×1.3" _n ///
+	_col(5) "= 700 + 30 + `=(`water_meter'-`water_meter_pre')*3.5' + `=(`electric_meter'-`electric_meter_pre')*1.3'" _n ///
 	_col(5) "= `total_cost'元" _n(3)
 
 
