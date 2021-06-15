@@ -1,5 +1,5 @@
 {smcl}
-{right:Updated time: May 18, 2021}
+{right:Updated time: June 15, 2021}
 {* -----------------------------title------------------------------------ *}{...}
 {p 0 16 2}
 {bf:[W-11] fsfz} {hline 2} Used to output the details of the rental cost in Foshan. You can view source code in {browse "https://github.com/Meiting-Wang/fsfz":github}.
