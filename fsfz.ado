@@ -62,7 +62,7 @@ else {
 
 *将结果输出至Stata界面上
 #delimit ;
-dis _n in w //读数表格输出
+dis _n in w //水电表读数输出
 	"{text:{bf:水电表读数}}" _n 
 
 	"{hline 21}{c TT}"                 "{hline 8}{c TT}"               "{hline 8}{c TT}"                "{hline 10}" _n
