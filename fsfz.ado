@@ -1,4 +1,4 @@
-* Used to output the details of the rental cost in Foshan
+* Output the details of the rental cost in Foshan
 * Author: Meiting Wang, doctor, Institute for Economic and Social Research, Jinan University
 * Email: wangmeiting92@gmail.com
 * Updated on July 15, 2021
