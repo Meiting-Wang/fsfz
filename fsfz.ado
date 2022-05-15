@@ -72,19 +72,19 @@ dis _n in w //水电表读数输出
 
 	"{hline 21}{c TT}"                 "{hline 8}{c TT}"               "{hline 8}{c TT}"                "{hline 10}" _n
 
-	_col(2) "{result:{bf:读数项目}}"     _col(22) "{c |}{center 8:{result:{bf:上期}}}" _col(31) "{c |}{center 8:{result:{bf:本期}}}" _col(40) "{c |}{result:{bf:本期-上期}}"   _n
+	_col(2) "{result:{bf:读数项目}}"     _col(22) "{c |}{center 8:{result:{bf:本期}}}" _col(31) "{c |}{center 8:{result:{bf:上期}}}" _col(40) "{c |}{result:{bf:本期-上期}}"   _n
 
 	"{hline 21}{c +}"                 "{hline 8}{c +}"               "{hline 8}{c +}"                   "{hline 10}" _n
 
-	_col(2) "{result:厕所水表(立方米)}"   _col(22) "{c |}{center 8:{input:`last_water1'}}"       _col(31) "{c |}{center 8:{input:`now_water1'}}"      _col(40) "{c |}{center 9:{input:`diff_water1'}}"   _n
+	_col(2) "{result:厕所水表(立方米)}"   _col(22) "{c |}{center 8:{input:`now_water1'}}"       _col(31) "{c |}{center 8:{input:`last_water1'}}"      _col(40) "{c |}{center 9:{input:`diff_water1'}}"   _n
 
 	"{hline 21}{c +}"                 "{hline 8}{c +}"               "{hline 8}{c +}"                   "{hline 10}" _n
 
-	_col(2) "{result:洗衣机水表(立方米)}" _col(22) "{c |}{center 8:{input:`last_water2'}}"       _col(31) "{c |}{center 8:{input:`now_water2'}}"      _col(40) "{c |}{center 9:{input:`diff_water2'}}" _n
+	_col(2) "{result:洗衣机水表(立方米)}" _col(22) "{c |}{center 8:{input:`now_water2'}}"       _col(31) "{c |}{center 8:{input:`last_water2'}}"      _col(40) "{c |}{center 9:{input:`diff_water2'}}" _n
 
 	"{hline 21}{c +}"                 "{hline 8}{c +}"               "{hline 8}{c +}"                   "{hline 10}" _n
 
-	_col(2) "{result:电表(度)}"          _col(22) "{c |}{center 8:{input:`last_electric'}}"       _col(31) "{c |}{center 8:{input:`now_electric'}}"      _col(40) "{c |}{center 9:{input:`diff_electric'}}" _n
+	_col(2) "{result:电表(度)}"          _col(22) "{c |}{center 8:{input:`now_electric'}}"       _col(31) "{c |}{center 8:{input:`last_electric'}}"      _col(40) "{c |}{center 9:{input:`diff_electric'}}" _n
 
 	"{hline 21}{c BT}"                 "{hline 8}{c BT}"               "{hline 8}{c BT}"                "{hline 10}" _n
 ;
