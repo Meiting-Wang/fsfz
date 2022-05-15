@@ -47,6 +47,11 @@ local diff_electric = `now_electric' - `last_electric' //电表差额
 
 local total_cost = 700 + 30 + (`diff_water1'+`diff_water2')*3.5 + `diff_electric'*1.3
 
+local diff_water1 = strofreal(`diff_water1') //转化为字符串以解决显示问题，下同
+local diff_water2 = strofreal(`diff_water2')
+local diff_electric = strofreal(`diff_electric')
+local total_cost = strofreal(`total_cost')
+
 local year1 = year(date("`c(current_date)'","DMY"))
 local month1 = month(date("`c(current_date)'","DMY"))
 if `month1' == 12 {
